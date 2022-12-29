@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+.path-0 {
+  animation: pathAnim-0 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
