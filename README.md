@@ -1,5 +1,5 @@
 # Blog-App
-Mini Project - Blog Application(Monolithic Architecture):
+Project - Blog Application(Monolithic Architecture):
 - The Rest APIs are built with the Java-Spring boot following MVC structure throughout the project.
 - User can login and register with fully secured way using Spring Security.
 - On login with registered email and password, the user will get a JWT(Json Web Token) which will be used in all other APIs, this is achieved with the help of spring security.
@@ -14,3 +14,11 @@ Mini Project - Blog Application(Monolithic Architecture):
 - RabbitMQ Message broker is used to save all the logs of request comes in with the required details in a queue.
 - Another Spring boot application is created as log manager which will listen to the queue in RabbitMQ.
 - Log manager application will save all the logs in Database.
+
+## Tech Stack
+
+**Frontend:** React, Redux, TailwindCSS
+
+**Backend:** SpringBoot, Java, REST Api
+
+**DataBase:** MySql
